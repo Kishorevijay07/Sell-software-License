@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import AI_incon from './images/ai_image.jpg';
-import { getLangchainResponse } from "./langchain.jsx";
+
 
 const ChatWidget = () => {
   const [userMessage, setUserMessage] = useState("");
